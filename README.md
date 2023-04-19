@@ -13,12 +13,15 @@ ex) sh getMetaData.sh MYSQL_DATABASE
 
 ### setEnvironments.sh  
 getMetaData.shを実行し、環境変数に書き出すシェル  
-~/.bashrcなどで実行し、環境変数の初期設定を行.envにも書き出すことができる
+~/.bashrcなどで実行し、環境変数の初期設定を行.envにも書き出すことができる  
 MYSQL系の環境変数を対象としているが、適宜変えたら他にも使える
 
-### buildContainer.sh
+### build.sh
+Docker imageのビルド用シェル
 
+### push.sh
+Docker imageのプッシュ用シェル
 
 ## GCR
-### deployContainer.sh
+### deploy.sh
 GCRへのコンテナデプロイ用シェル
