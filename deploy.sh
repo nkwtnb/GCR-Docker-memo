@@ -8,7 +8,6 @@ Please provide four arguments, including:
 EOS
   exit 1
 fi
-# TODO 引数チェック
 docker build . -t $1-docker.pkg.dev/$2/$3/$4
 docker push $1-docker.pkg.dev/$2/$3/$4
 # TODO デプロイ用コマンド
